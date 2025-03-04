@@ -111,3 +111,13 @@ for(let count1 = 1; count1< 10; count1++) {
 
 
 
+
+
+
+for(i = 2; i <= 50; i++) {
+    if (i == 10) {
+        break;
+    }
+    console.log(i);
+    
+}
