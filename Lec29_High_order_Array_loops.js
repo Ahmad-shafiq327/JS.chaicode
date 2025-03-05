@@ -172,3 +172,104 @@ for (const key in programming) {
 
 
 
+
+
+
+
+           // <---------for-each loop---------->
+    
+    // sub sy zayada hum for-each loop use krain gy....is main function apny ap main aik keyword hai.
+    
+const coding = ["c language", "python", "javascript", "ruby", "swift", "cpp"]
+
+coding.forEach( function (item) {
+    console.log(item);
+    
+})
+
+
+
+
+
+
+
+            // for-each loop....phy aik array declare kia...phr is array pr for-each loop lgaya...is loop main function apny ap main aik keyword hai...function main parameter (value) ka mtlb array ka data hai...and value ko print kerwadia.......hum is main arow function bi use kr skty han, 
+const array = ["ahmad", "fahad", "haseeb", "ubaid", "naouman"]
+
+array.forEach(function (value) {
+    console.log(value);
+    
+})
+
+
+
+
+
+
+
+const MyArry = ["pakistan", "india", "ameriaca", "germany"]
+
+myarry.forEach( (Items) => {
+    console.log(Items);
+    
+
+})
+
+
+
+
+
+
+            // use for-each loop.....with the help of arow function...and checked array and index values....thats amazing.
+const myArray = ['a', 'b', 'v', 'd', 'e', 1, 2, 4]
+
+myArray.forEach( (myArray, index) => {
+    console.log(index, myArray);
+    
+})
+
+
+
+
+
+
+        // this is most important...database sy value array ki formate main ati hai and hur aik value aik object hi hota hai...me ne array ke ander 3 object declare kiyeh..yahan pr object ka name item hai...and for-each loop ki madad sy and arow function lga kr hur object ki language ko axcec kr lia...and Name ko bi...agr me chahon tw bari bari hur cheez ki axcess kr skta hao.
+
+const myCoding = [
+    {
+        languageName: "javascript",
+        Name: "ahmad",
+        city: "islamabad",
+    },
+
+    {
+        languageName: "python",
+        Name: "fahad",
+        city: "karachi",
+    },
+
+    {
+        languageName: "c language",
+        Name: "haseeb",
+        city: "lahore",
+    },
+]
+
+myCoding.forEach((item)=> {
+    console.log(item.languageName);
+    
+})
+
+myCoding.forEach( (item)=> {
+    console.log(item.city);
+    
+} )
+
+
+
+
+
+
+
+
+
