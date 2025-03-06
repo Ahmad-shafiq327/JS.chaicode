@@ -237,21 +237,21 @@ myArray.forEach( (myArray, index) => {
 
 const myCoding = [
     {
-        languageName: "javascript",
-        Name: "ahmad",
-        city: "islamabad",
+        languageName: "Javascript",
+        Name: "Ahmad",
+        city: "Islamabad",
     },
 
     {
-        languageName: "python",
-        Name: "fahad",
-        city: "karachi",
+        languageName: "Python",
+        Name: "Fahad",
+        city: "Karachi",
     },
 
     {
-        languageName: "c language",
-        Name: "haseeb",
-        city: "lahore",
+        languageName: "Cpp Language",
+        Name: "Haseeb",
+        city: "Lahore",
     },
 ]
 
@@ -260,16 +260,16 @@ myCoding.forEach((item)=> {
     
 })
 
-myCoding.forEach( (item)=> {
-    console.log(item.city);
+// myCoding.forEach( (item)=> {
+//     console.log(item.city);
     
-} )
+// } )
 
 
 
 
 
-
+// for-each loop kuch bi return ni krta.
 
 
 
