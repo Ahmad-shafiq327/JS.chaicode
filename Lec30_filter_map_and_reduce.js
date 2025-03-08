@@ -333,3 +333,16 @@ const zzz = yyy.reduce( (acc, curr) => acc + curr)
 console.log(zzz);
 
 
+
+
+
+
+const nnn = [100, 200, 300, 400]
+
+
+const vvv = nnn.reduce( (acc, curvlue) => {
+    console.log(`accumilator:- ${acc} and current_value:- ${curvlue}`);
+    return acc + curvlue
+}, 100)
+
+console.log(vvv);
