@@ -185,6 +185,151 @@ console.log(newNUMBERS);
 
 
 
+
+
+
+const bbb = [10, 20, 30, 40, 50, 50, 60, 70]
+const ccc = ddd
+                .map( (char) => char * 2)
+                .map( (char) => char * 10 / 2 )
+                .filter( (char) => char > 20)
+
+console.log(ccc);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // <-------reduce------>
+
+    // this is reduce method hum isy kafi bar use krain gy...is main accumilator and current_value hoti hai...accumilator ka mtlb hamari merzi hum accumilator ko jahan merzi sy start kerwayn...like 0 sy 10 sy 15 sy 100 sy jahan sy apka dil kry kerwayn...and current_value ka mtlb hamary array ka first digit...yeh kam is trhan kry ga ke phly accumilator plus array ka first digit...jo result aya woh accumilator bun jay ga...agian accumilator plur array ka second digit...yeh isi trhan chalta rahy ga...
+
+const ttt  = [1, 2, 3]
+
+const mytotal = ttt.reduce(function (accumilator, current_value) {
+    console.log((`accumilator:- ${accumilator}, and current_value:- ${current_value}`));
+    return accumilator + current_value
     
+}, 0)
+
+console.log(mytotal);
+
+
+
+    
+
+
+
+
+const uuu = [10, 20, 30, 40]
+
+const iii = uuu.reduce(function(acc, curvalue) {
+    console.log(acc, curvalue );
+    
+    return acc + curvalue
+}, 0)
+
+console.log(iii);
+
+
+
+
+
+
+
+
+        // is pr reduce method apply kia simple calling functon ke saht...
+
+const ooo = [5, 6, 7, 8]
+
+
+const ppp = ooo.reduce( function(initial_value, current_value) {
+    console.log(`initialvalue:- ${initial_value} and currentvalue:- ${current_value}`);
+    
+    return initial_value + current_value
+}, 3)
+
+console.log(ppp);
+
+
+
+
+
+    //  phly aik array declare kia...phr is pr reduce method apply kia...accumilator ko kaha 5 sy start ho.... 5 plus 1 = 6 ab accumilator 6 bun jay ga....and 6 plus 3 = 9 ab accumilator 9 bun jay ga...and 9 plus 5 = 14 ab accumilator 14 bun jay ga...and soo on...yeh isi trhan kam krta hai. 
+
+console.log("ahmad shafiq");
+
+
+const MyArray  = [1, 3, 5, 7, 9]
+
+const reduce_method = MyArray.reduce( (acc, curvalue) => {
+    return acc + curvalue
+}, 5)
+
+
+console.log(reduce_method);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // push on mind.
+const shopingCart = [
+    {
+        courseName: "web decelopment course",
+        price: 3000,
+    },
+    {
+        couseName: "app develoment course",
+        price: 5000,
+    },
+    {
+        courseName: "data scientist course",
+        price: 7000
+    },
+    {
+        courseName: "artifical intelegence",
+        price: 9000
+    }
+]
+
+
+const priceToPay = shopingCart.reduce( (acc, value) => acc+ value.price, 0)
+
+console.log(priceToPay);
+
+
+
+
+
+
+
+
+
+
+
+const yyy = ["hafiz", "shafiz", "ahmad"]
+
+const zzz = yyy.reduce( (acc, curr) => acc + curr)
+
+console.log(zzz);
 
 
