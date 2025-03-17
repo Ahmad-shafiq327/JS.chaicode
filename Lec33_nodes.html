@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nodes</title>
+</head>
+<body style="background-color: black; color: white " >
+
+
+
+    <h2>DOM:- javascript</h2>
+    
+    
+</body>
+
+
+
+<script>
+const div =  document.createElement('div')
+console.log(div);
+div.className = "main-div"
+div.id = Math.round(Math.random() * 10 + 1) // this is important me ne id main math.round(math.random()) library set krdi...you know hur bar isko save krny pr new random id generate hoti rahy gi..
+div.setAttribute("title", "generated title")  // yeh direct value set kr deta hai...some developer use this.
+div.style.color = "red"
+div.style.backgroundColor = "white"
+div.style.padding = "10px"
+div.innerText = "chai aur code" // this is also right...but yeh overhight krta hai...phly yeh memory main jata hai uska reference le kr ata hai phr value set krta hai.
+const addText = document.createTextNode("chai aur code") // this is also right creattextnode and store in variable...
+div.appendChild(addText)
+
+document.body.appendChild(div) // is pury data ko body pr attach krny ka tareeka. ab is pury document ko body pr attach krdia.
+
+
+
+// javascript ke through phly aik Elementcreat kia or sath hi usko variable main store kr dia....phr usko aik class di and phr aik id di and id ke ander hi math round(Math.random library apply krdi mtlb...hur bar save krny pr yeh new random number ki id generate kry ga...phr is main setAttribute kia...phr color put kia...phr background-color put kia...phr padding put ki...phr innerText use kia...phr createTextNode kr ke variable main store kr ke appendChild kr dia...phr is pury document ko body sy attach kr dia.........body main chia aur code 2 bar is liyeh paste ho rha hai q ke me ne innettext bi sue kia hai..and creattextnode bi use kia hai...
+
+
+
+
+</script>
+
+
+
+
+
+
+</html>

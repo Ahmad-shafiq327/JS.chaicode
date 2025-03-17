@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edit and remove element in DOM</title>
+</head>
+<body style="background-color: black; color: white" >
+    <ul>
+        <li class="language">
+            javascript</li>
+    </ul>
+    
+</body>
+
+<script>
+
+function addLanguage(langName) {
+    const li = document.createElement('li')
+    li.innerHTML = `${langName}`
+    document.querySelector('.language').appendChild(li)
+}
+
+addLanguage("python")
+addLanguage("React.js")
+addLanguage("typescript")
+
+
+
+        // 2nd method of createlement
+
+
+function addOptimizeLang(langName) {
+    const li = document.createElement('li')
+    li.appendChild(document.createTextNode(langName))
+    document.querySelector('.language').appendChild(li)
+} 
+
+addOptimizeLang("Rubby")
+addOptimizeLang("C plus plus")
+
+
+
+
+            // now edit
+
+    const editEle = document.querySelector("li:nth-child(2)")   // select pura li
+    // editEle.innerHTML = "ahmad shafiq" // this is also right but we use letter.
+    const newli = document.createElement("li") // creat newelement with li and store variable
+    newli.textContent = "ahmad shafiq" // add textcontent ahmad shafiq    
+    editEle.replaceWith(newli)          // react ki jagah ahmad shafiq likh dia.
+
+        // now remove element
+
+const removeEle = document.querySelector("li:nth-child(5)") // me ne is main last-child likha tw mery pas eror aya.
+removeEle.remove()
+
+
+
+
+</script>
+
+</html>
