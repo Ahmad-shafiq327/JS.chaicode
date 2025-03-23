@@ -16,8 +16,13 @@ main.forEach(function(item) {
         if(element.target.id === "green") {
             body.style.backgroundColor = element.target.id
         }
+
         if(element.target.id === "blue") {
             body.style.backgroundColor = "blue"
+        }
+
+        if(element.target.id === "purple") {
+            body.style.backgroundColor = "purple"
         }
     })
 })
