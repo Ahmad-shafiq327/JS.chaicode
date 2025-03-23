@@ -6,6 +6,14 @@
 
 console.log("DOM");
 
+// html main line space aik hi bar count hoti hai...
+
+// React main childNodes bht importat hai...mtlb pura react childNode pr hi bna hai.
+
+// Document Object Model pura aik tree structure hai...
+
+
+// Nodelist aik aik cheez ko count krta hia...mtlb space ko bi dot ko bi and enter ko bi class ko bi...hur aik element aik node hai.
 
 
 
@@ -64,5 +72,28 @@ console.log("DOM");
 
 
 
+
+// phly aik parent ke name sy class bnai...phr isko aik variable main store kerdia...phr bari bari usk children ka color change kia....
+
+<script>
+
+const days = document.querySelector('.parent')
+days.children[0].style.color = "red"
+days.children[1].style.color = "green"
+days.children[2].style.color = "blue"
+days.children[3].style.color = "pink"
+days.children[4].style.color = "orange"
+days.style.backgroundColor = "white"
+
+</script>
+
+
+
+
+
+
+
+// .parentElement ka mtlb parentElement ke ander hur cheez display krdy ga...
+// .parentElementSibling ka mtlb current Element sy agla Element display krdy ga.
 
 
