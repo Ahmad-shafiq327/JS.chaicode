@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body style="background-color: gray">
+    <h1>Amazing image</h1>
+
+    <div>
+        <ul id="images">
+            <li><img src="IMG_20210802_070611_144.jpg" id="pic1" width="200px" height="200px" ></li>
+            <li><img src="IMG_20210914_204431_562.jpg" id="pic2" width="200px" height="200px"> </li>
+            <li><img src="IMG_20211218_105913_868.jpg" id="pic3" width="200px" height="200px"> </li>
+            <li><img src="IMG_20211226_122339_784.jpg" id="pic4" width="200px" height="200px"> </li>
+            <li><img src="IMG_20220116_215914.png" id="pic5" width="200px" height="200px"></li>
+            <li><img src="IMG_20220520_220535_105.jpg" id="pic6" width="200px" height="200px"> </li>
+            <li><a href="https://google.com" id="google">google.com</a> </li>
+        </ul>
+    </div>
+    
+</body>
+
+<script>
+
+    // onclick yeh wala method thk hai....but yeh feature kum deta hai.
+
+     document.getElementById('pic1').onclick = function() {
+        alert("pic1 clicked")
+     }
+
+
+     document.getElementById('pic1').addEventListener('click', function(e){
+        console.log(e)  
+     }, false)
+
+    
+
+    // type, timestamp. defaultprevented
+    // target, toElement, srcElement, currentTarget,
+    // clientX, clientY, screenX, screenY, 
+    // altkey, ctrlkay, shiftkay, keyCode
+    // yeh sary interview ke lihaz sy important hai..inko achi trhan kr laina...yeh sary browser main javascript ke engine main hoty han...
+
+
+
+
+
+
+    document.getElementById('images').addEventListener('click', function(e) {
+        console.log("clicked inside the url")
+     }, false)
+
+
+    document.getElementById('pic3').addEventListener('click', function(e) {
+       console.log("clicked pick3")
+     }, false)
+
+
+    // is main default value false hi hoti hai.
+    // is main true ka mtlb capturing hai....mtlb capturing top to bottom jata hai...
+    // is main false ka mtlb bubling hota hai...mtlb nechy sy uper jata hai.
+    // agr me false ki jagah pr true likhon ga tw yeh top to bottom kam kry ga...true waly ko vapturing kahty han.
+    // ap inko apny hisab sy use krain gy...jaisy apko need hogi.
+
+
+
+
+
+
+
+    document.getElementById('pic2').addEventListener('click', function(e) {
+        console.log("clicked at pic2")
+    }, false)
+
+
+     document.getElementById('pic4').addEventListener('click', function(e) {
+         console.log("clicke at pic4")
+         e.stopPropagation()
+
+    }, false)
+
+
+    // is stopPropagation() ka mtbl...jb me pick4 pr click kronga tw yeh bubbling ho kr pick2 pr ni jay ga...q ke me ne stoppropagation method use kia hai....false ka mtlb nechy sy uper jana.
+
+
+
+
+
+
+
+    document.getElementById('google').addEventListener('click', function(e) {
+         e.preventDefault() // click krny pr koi action ni hoga.
+        console.log("google clicked") // print google clicked.
+        e.stopPropagation() // dont move bottom to top.
+    }, false)
+
+    // is preventDefault ka mtlb jb me google ke link pr click kronga tw google site open ni hogi...q ke me ne preventdefault method lgaya hou hai.
+
+
+
+
+
+
+
+
+
+    document.querySelector('#images').addEventListener('click', function(item) {
+        console.log(item)
+        console.log(item.target);
+        console.log(item.target.parentNode) // give me complete li <li></li>
+        let removeIt = item.target.parentNode // give me li when i clickd of any pic.
+        removeIt.remove() // remove when you click of picture.
+        console.log(item.target.tagName) // give me name of this thing.
+        if(item.target.tagName === 'IMG') { // apply condition.
+            console.log(item.target.id) // print name of id when of click of any pic
+        }
+
+    }, false)
+
+
+
+    // item.target ka mtlb jb me kisi bi pictue pr click kronga tw browser ke console main us picture ki details de dega...mtlb id, height, widht, link, and so on...remove ka mtlb jaisy hi me kisi bi picture pr click kronga tw woh picture remove ho jay gi...mtlb picture ghaib ho jay gi...target.ParentNode ka mtlb jaisy hi me picture pr click kronga tw browder ke console main mujy pick ka li dedy ga...tageName ka mtlb mtlb agr image hai tw IMG and agr vide hai tw VIDEO dega browser ke console main.
+
+
+    // EventPropogation and Event boubling,
+    // false na bi likho tw masla ni hai...but kafi jagah pr yeh likhna bht zarori hota hai.
+
+
+
+
+</script>
+
+</html>
