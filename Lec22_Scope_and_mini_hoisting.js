@@ -78,18 +78,6 @@ one1()
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
                         // this is also easy....i itself creat.
 
 function myFunction() {
@@ -109,26 +97,6 @@ function myFunction() {
 }
 
 myFunction()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -162,14 +130,6 @@ if (true) {
 }
 
 // console.log(Username);               // yeh bi kabi print ni hoga q ke me isy bi isk scope sy bahir axces kr rha hon.
-
-
-
-
-
-
-
-
 
 
 

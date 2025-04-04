@@ -27,19 +27,6 @@ console.log(calculate_cart_price(10));      // result 10
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
                     // yahan pr is three dot ka matlab rest hai....mtlb sari valu ko aik bundle main pack kro or mujhy dedo.
 function total_price(...price) {
     return price 
@@ -171,20 +158,6 @@ history_student(info_student)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                         // this is easy dimag pr zoor dy.
 const arr_object = {
     Name: "Hafiz Ahmad Shafiq",
@@ -201,15 +174,6 @@ function Student(my_data){
 }
 
 Student(arr_object)
-
-
-
-
-
-
-
-
-
 
 
 
@@ -251,16 +215,6 @@ info_jksm(pepsi_company)
 
 
 
-
-
-
-
-
-
-
-
-
-
                         // this is easy is main humny array lia...zarori ni ke hum is main sirf object lain...hum is main kuch bi le skty han...jaisa ke ma ne idher array lia hai.
 const newArray = [100, 200, 300, 400]
 
@@ -282,15 +236,6 @@ console.log(targetArray(newArray))
 
 
 
-
-
-
-
-
-
-
-
-
                             // yeh bi aik tareeka hai.
 
 function target_string(getString){
@@ -298,21 +243,6 @@ function target_string(getString){
 }
 
 console.log(target_string(["Ahmad", "Fahad", "Mother", "Father"]));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -344,31 +274,6 @@ function checkUser(loggedIn){
                
 }
 checkUser(My_objecty_object.location)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -46,27 +46,6 @@ console.log(hundreds.toLocaleString())          // result 1,000,000 yeh commas U
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                      //<------------->Maths------------>
 
 console.log(Math)       // Math apny ap main aik object hai....nechy waly sub math ke function han....not a property.
@@ -95,9 +74,6 @@ const max = 20
 console.log(Math.floor(Math.random() * (max - min + 1)) + min);  // result between 10 to 20...hur bar run krny pr hur bar iska result change hoga.
 console.log((max - min + 1) + min);
  
-
-
-
 
 
 

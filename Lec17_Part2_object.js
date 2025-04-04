@@ -2,8 +2,8 @@
 
 
 
-// onst username = new objct()          ------------->yeh aik singelton object hai.
-// const myName = {}                     ------------------>yeh aik non-singelton object hai.
+const username = new objct()          ------------->yeh aik singelton object hai.
+const myName = {}                     ------------------>yeh aik non-singelton object hai.
 
 
 
@@ -34,18 +34,6 @@ console.log(tinderuser);            // print as it is.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 const regulerUser = {
     email: "something@gmail.com",
     fullname: {                     // is object main aik or object put kia hai....mtlb nested object.
@@ -60,15 +48,6 @@ const regulerUser = {
 console.log(regulerUser.email);
 console.log(regulerUser.fullname)       // result fullname ke ander jo kuch bi likha hai woh print hoga....is main nested object han.
 console.log(regulerUser.firstname);
-
-
-
-
-
-
-
-
-
 
 
 
@@ -122,17 +101,6 @@ const myobject2 = {
 
 const myobject3 = Object.assign(myobject1, myobject2)           // Object.assign yeh method object ko ekhata krny ka hai.
 console.log(myobject3)
-
-
-
-
-
-
-
-
-
-
-
 
 
 
