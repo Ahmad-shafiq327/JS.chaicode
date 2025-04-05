@@ -1,0 +1,70 @@
+
+// 2 system ke beach main jo bat hoti hai....usy API kahty han...frontend sy backend.....ya backend sy backend......ya frontend kisi or ka backend hamara.....
+
+
+
+
+
+// jason formator
+// randomuser.me
+
+
+
+
+// XMLHttpsRequest bht powerfull API hai....is main Ajax bi hota hai....jisko Ajax bht achy sy ata hai usko asynchrous bht achy sy ata hai...XMLHttpsRequest main 5 state hoti han.......0 to 5.....aj bi React.js main state hoti hah...bs sirf numbers bnd ho gay han....but udher direct call hoti hai...
+
+
+
+// XMLHttpsRequest ke through ap apna data send or accept kr skty ho.
+
+
+// XMLHttpsRequest yeh aik mehtod hai.
+
+
+
+// jb bi apk pas url sy responce ata hai woh mostly string main ata hai...phr us string ko JSON.parse main convert krty han.
+
+
+
+// console.log techniqualy javascript ka part hai bi or ni bi.
+
+
+// document.getElementById() and so on......actualy yeh core javascript ka part ni hai....javascript ke ander bht saari cheezyan hain....jese document.getElementById()....yeh browser ka part.....core javascript ke ander basiec arithmetic operators functions loops vaghera....
+
+
+
+
+// console.log actualy debugging toll hai that mean browser ka developer toll..
+
+
+
+//  yeh actualy main run time javascript ka woh engect krta hai...
+
+
+// bht say engine han jo javascript ko run krty han....jese V8 engine 
+
+
+// yeh line me ne ni likhi yeh auto likhi ayi hai--------> V8 yeh google ka engine hai jo javascript ko run krta hai....chrome main....or node.js main bhi yeh engine use hota hai....or yeh engine javascript ko machine code main convert krta hai....or phir woh machine code ko run karta hai....or woh machine code ko phir browser main run karta hai....
+
+
+
+
+// yeh pura engine c++ main likha hia...or powefull bt bi yehi hai ke javascript run c++ sy hi hoti hai.....iska mtlb yeh ni hai ke javascript kuch bi ni hai...python bi isi trhan run hoti hai...bs sub rapper bny houy han...
+
+
+
+
+// V8 engine apko API debugging tolls axcess yeh sub apko deta hai...ke ap kam kr sakho...console.log bi isi main available hota hai...javascript ka run time yehi sub apko deta hai.
+
+
+
+// v8 engine repsosetry main ja kr d8 pr click krain d8-console.cc yehi actualy console.log hai
+
+
+// yeh pura ka pura engine browser main jata hai...or browser ko bolta hai... ap aisy hi directly print ni krna me apko aik devlopment toll ki space btata hon...jo inspect element ke ander console main.
+
+
+// yeh pura console.log hai--------> D8Console::Log 
+
+// console.error is trhan sy ata hai----------> D8Console::Error
+
