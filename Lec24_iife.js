@@ -10,16 +10,14 @@
 
                 // this is simple function.
 
-// function chai() {
-//     console.log("data base connected")
+function chai() {
+    console.log("data base connected")
     
-// }
+}
 
-// chai();
+chai();
 
-                    // agr me uper samicolon ni lgaon ga tw function execute ni hoga...semicolon ka mtlb hai code end ho gya.
-
-
+                   // agr me uper samicolon ni lgaon ga tw function execute ni hoga...semicolon ka mtlb hai code end ho gya.
 
 
 
@@ -29,26 +27,25 @@
 
 
 
-//                         // this is iife....immediatly invoked function expression.
 
-// (function my_function(){
-//     console.log("Data base Connected");
+
+                        // this is iife....immediatly invoked function expression.
+
+(function my_function(){
+    console.log("Data base Connected");
     
-// })();                   // agr me semicolon ni lgata tw function execute ni hota...uper wala bi and necy wala bi.
+})();                   // agr me semicolon ni lgata tw function execute ni hota...uper wala bi and necy wala bi.
 
 
-//                          // this is iife.
+                         // this is iife.
 
-// (function myFunction() {
-//     console.log("this is connected to database");
+(function myFunction() {
+    console.log("this is connected to database");
     
-// }());
+}());
 
 
-//     // pury function ko wrap kr dia aik paranthesis main and end main ( ) yeh likh kr function ko execute kia.. 
-
-
-
+    // pury function ko wrap kr dia aik paranthesis main and end main ( ) yeh likh kr function ko execute kia.. 
 
 
 
@@ -59,16 +56,12 @@
 
 
 
+            // this is arrow function....is pr bi iife apply kr dia....hur function ke end main semicolon lgy ga.
 
-
-
-
-//             // this is arrow function....is pr bi iife apply kr dia....hur function ke end main semicolon lgy ga.
-
-// (() => {
-//     console.log("connected to database")
+(() => {
+    console.log("connected to database")
     
-// })();
+})();
 
 
 
@@ -82,14 +75,14 @@
 
 
 
-//                 // i itself creat...dimag pr zoor dy...+ * _ / ke liyeh return use krain gy.
+                // i itself creat...dimag pr zoor dy...+ * _ / ke liyeh return use krain gy.
 
-// const code = (number1, number2) => {
-//     return number1 * number2
+const code = (number1, number2) => {
+    return number1 * number2
     
-// }
+}
 
-// console.log(code(4, 5))         // result 20.
+console.log(code(4, 5))         // result 20.
 
 
 
