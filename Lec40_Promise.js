@@ -374,3 +374,104 @@ finally {
     console.log("maybe error occured");
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+const promise = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        console.log("ahmad shafiq");
+        resolve()
+
+    }, 15000)
+})
+
+promise.then(() => {
+    console.log("hafiz ahmad shafiq");  
+})
+.then(() => {
+    for(a = 0; a <= 10; a++) 
+        if(a % 2 === 0)
+        {
+        console.log(a);
+    }
+    
+})
+
+
+
+
+
+
+
+
+
+
+
+// yeh best tareeka hai promise likhny ka....is main me ne arrow functinn and technique use ki hai....isi ko bi yad rakheo....uper wala bi thk hai but woh thora confused kr rha hai...is main direct resolce and reject use kia...conlsole likhny ki zarorat ni pari.....and end main bi code ko chainable bnaya mtlb readable bnaya chainable bnany sy hi code execute hota hai verna ni.
+const promiseabc = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        let success = false
+        if(success) {
+            resolve("success true")
+        }
+        else {
+            reject("success was failed")
+        }
+        
+
+    }, 20000)
+
+
+})
+
+promiseabc
+.then((ahmad) => { // best way...par and arg same
+    console.log(ahmad);  
+})
+.catch((fahad) => {
+    console.log(fahad);
+    
+})
+
+
+
+
+
+
+
+
+
+
+
+
+// this is best way of promise....resolve and reject direct use....and in the end code make best method and chainable.....and put same arguemnt and paramenter in then and catch.
+const pro = new Promise((resolve, reject) => {
+    setTimeout(() => {
+
+        let age = 50
+        if(age === 22) {
+            resolve("you are adult")
+        }
+        else {
+            reject("you are not adult")
+        }
+
+    }, 22000) // after 22 sec
+})
+
+pro
+.then((result) => {
+    console.log(result);
+})
+.catch((reject) => {
+    console.log(reject);
+})
