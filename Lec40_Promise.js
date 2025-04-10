@@ -192,6 +192,31 @@ promiseResolve.then(function(item) {
 
 
 
+
+
+// i itself creat push on mind.
+const ahmadpromise = new Promise(function(resolve, reject) {
+    setTimeout(function() {
+        for(let i = 0; i <= 5; i++) {
+            console.log(i)
+            resolve();
+        }
+
+    }, 8000)
+})
+
+
+ahmadpromise.then(function() {
+    for(j = 10; j >= 0; j--) {
+        console.log(j);
+    }
+})
+
+
+
+
+
+
 //------------->reject
 
 
@@ -218,3 +243,134 @@ promiseFour.catch(function() {
 
 
 
+// i put reject method......phly reject method ko aik variable main store kia...then asynchorouns task put kia...phr error declare kia....phr if else condition apply ki...and reject mehtod ko call ki....phr promise ko call ki and .catch method apply kr ke function calling ki...basicaly promise hai hi callback function....you know .catch ka reject sy connection hota hia.....if and last wala code execute hoga.
+const prmiseAhmad = new Promise(function(resolve, reject) {
+    setTimeout(function() {
+        let error = true
+        
+        if(error === true) {
+            console.log("something went wrong");
+            
+        }
+        else {
+            console.log("error not find till now");
+            
+        }
+        reject();
+
+    }, 9000)
+})
+
+prmiseAhmad.catch(function() {
+    console.log("rejected function execute");
+    
+})
+
+
+
+
+
+
+
+
+
+
+
+const promiseFive = new Promise((resolve, reject) => {
+
+    setTimeout(() => {
+        let error = true
+        if(error === true) {
+            resolve({username: "chai or code", password: "4255"})
+        }
+        else {
+            reject(`Error: Something went wrong`)
+        }
+
+    },10000)
+
+})
+
+// ap jitni bar chahain .than likh skty han...isy chaining and thenable  kahty han...phly waly .then main jo print hoga wohi value next waly .then main transfer ho jay gi....isi trhan phr agly .then main
+promiseFive
+.then((user) => {
+    console.log(user);
+    return user.username
+})
+.then((username) => {
+    console.log(username);
+    
+})
+.catch((error) => {
+    console.log(error);
+})
+.finally(() => {
+    console.log("the promise finally done 100%");
+    
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+const promiseSeven = new Promise(function(resolve, reject) {
+    setTimeout(function() {
+        let error = true
+        if(!error) {
+            resolve({username: "javascript", password: '663185'})
+        }
+        else {
+            reject("Error:- js went wrong")
+        }
+
+    }, 12000)
+
+})
+
+// yeh thori dair wait krta hai kam ke hony ka...agr kam hota hai tw yeh agy bharta hai verna usi jagah apko error dy deta hai....database main is async await ki zarorat hai....jb database connect hi ni houa tw phr agy q barhain....async await directly error ko handels ni kr skty......try ka mtlb hota hai woh code ko successfully run krdy ga....and catch main agr catch main error hoga tw error de dega.
+
+async function consumePromiseSeven() {
+    try {
+        const response = await promiseSeven
+        console.log(response);
+    }
+    catch (error) {
+        console.log(error);
+        
+    }
+    
+}
+
+consumePromiseSeven()
+
+
+
+
+
+
+
+
+
+
+
+
+try {
+    let a = b * 3
+    throw new Error(a)
+}
+catch (error) {
+    console.log(error.message);
+    
+}
+finally {
+    console.log("maybe error occured");
+    
+}
