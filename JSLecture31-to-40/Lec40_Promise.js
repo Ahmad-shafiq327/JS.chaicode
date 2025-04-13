@@ -453,16 +453,16 @@ promiseabc
 
 
 
-// this is best way of promise....resolve and reject direct use....and in the end code make best method and chainable.....and put same arguemnt and paramenter in then and catch.
+// this is best way of promise....resolve and reject direct use....and in the end code make best method and chainable....and readable...and put same arguemnt and paramenter in then and catch.
 const pro = new Promise((resolve, reject) => {
     setTimeout(() => {
 
-        let age = 50
+        let age = 70
         if(age === 22) {
-            resolve("you are adult")
+            resolve("you are Adult")
         }
         else {
-            reject("you are not adult")
+            reject("You are End of Near Death")
         }
 
     }, 22000) // after 22 sec
@@ -475,3 +475,37 @@ pro
 .catch((reject) => {
     console.log(reject);
 })
+
+
+
+
+
+
+
+
+
+
+
+
+const Promisecause = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        marks = 100;
+        if(marks === 100) {
+            resolve("you got possition in the class")
+        }
+        else {
+            reject("are you failed")
+        }
+
+    }, 23000)
+})
+
+Promisecause
+.then((pass) => {
+    console.log(pass);
+})
+.catch((failed) => {
+    console.log(failed);
+    
+})
+
