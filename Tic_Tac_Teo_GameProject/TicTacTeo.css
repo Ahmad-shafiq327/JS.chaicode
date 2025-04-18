@@ -30,7 +30,7 @@ body {
 .box {
     height: 18vmin;
     width: 18vmin;
-    background-color: gray;
+    background-color: olive;
     border-radius: 6px;
     border: none;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
