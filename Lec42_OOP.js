@@ -84,7 +84,7 @@ console.log(UserDetail.getuserdetail());
 
 
 
-// push on mind...phly aik object declare kia...phr usi object main aik fucntion bnaya...this method ki madad sy object ke ander ke data ko axcess kia...phr end main object ko dot method ki madad sy functin ke sath connect kia and console kia.
+// push on mind...phly aik object declare kia...phr usi object main aik fucntion bnaya...this method ki madad sy object ke ander ke data ko axcess kia...phr end main object ko dot method ki madad sy functin ke sath connect kia and console kia.........jb hum browser main console main this ko print kerwayn gy tw udher bht sari cheezain ati han
 const object = {
     Name: "Hafiz Ahmad Shafiq",
     Age: 50,
@@ -94,7 +94,9 @@ const object = {
 
     targetobject: function() {
         console.log(`UserName:- ${this.Name}`);
-        console.log(`course:- ${this.course} `);
+        console.log(`course:- ${this.course}`);
+        console.log(this); // print complete object
+        
         
     }
 
@@ -107,6 +109,35 @@ console.log(object.targetobject());
 
 
 
+
+
+// const promise = new Promise()
+// const date = new Date()
+// in donon main new keyword ka mtlb constructor function hai.
+
+
+
+
+
+// jaisy hi hum new keyword likhty han sub sy phly aik empty object creat hota hai...jisy instance bola jata hai.
+// new kayword ke karan constructor function call hota hai...iska kam jityny bi argument hoty han unko pack kr ke hamain de dyta hai.
+// jo bi argument apny likhy hoty han...this keyword main yeh sub inject ho jaty han.
+// 4 step main apko mil jaty han function.
+
+
+
+
+
+
+
+function USER(USERNAME, LOGINCOUNT, ISLOGGEDIN) {
+    this.USERNAME = USERNAME
+    this.LOGINCOUNT = LOGINCOUNT
+    this.ISLOGGEDIN = ISLOGGEDIN
+}
+
+const udetail = USER("Ahmad", 12, true)
+console.log(udetail);
 
 
 

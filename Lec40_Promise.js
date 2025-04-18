@@ -509,3 +509,34 @@ Promisecause
     
 })
 
+
+
+
+
+
+
+
+
+
+const Pro = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        age = 33
+        if(age === age)
+            resolve("are you adult")
+        else {
+            reject("you are not adult")
+        }
+
+    }, 3000)
+
+})
+
+Pro
+.then((adult) => {
+    console.log(adult);
+})
+.catch((not_adult) => { 
+    console.log(not_adult);
+    
+
+})
