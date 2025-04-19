@@ -38,12 +38,24 @@ body {
     color: red;
 }
 
-#reset-btn {
+#reset-game {
     padding: 8px;
     font-size: 20px;
     background-color: indigo;
     color: white;
     border-radius: 5px;
     border: none;
+
+}
+
+#New-game {
+    padding: 8px;
+    font-size: 20px;
+    background-color: indigo;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    
+
 
 }
