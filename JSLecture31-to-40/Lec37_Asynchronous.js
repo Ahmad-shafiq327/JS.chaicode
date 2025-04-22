@@ -43,7 +43,7 @@
 
 
 
-// task queue aik queue box hota hai isk last sy ener kia jata hai or front sy bahir nikal dia jata hai...iski example aisy hai jaisy.....KFC pr car waly aik trafsy sy jaty han or dosri taraf sy bahir nikalty han burger le kr.
+// task queue aik queue box hota hai isko last sy enter kia jata hai or front sy bahir nikal dia jata hai...iski example aisy hai jaisy.....KFC pr car waly aik trafsy sy jaty han or dosri taraf sy bahir nikalty han burger le kr.
 
 
 
