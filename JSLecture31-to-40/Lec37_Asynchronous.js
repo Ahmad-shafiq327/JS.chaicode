@@ -36,7 +36,7 @@
 // jb bi program execute hota hai tw uska call stack bunta hai us call stack ke ander hi hamara global execution context bunta hai or phr aik aik kr functon load kiyeh jaty han jaisy jaisy function ka execution khtm hota hai un function ko unload kr dia jata hai...
 
 
-// set time-our and set time-intervel web API ke ander hota hai.
+// set time-out and set time-intervel web API ke ander hota hai.
 
 
 
