@@ -77,3 +77,10 @@ console.log(aaa.tellFtherName());
 
 
 console.log("ahmad");
+
+
+
+
+
+
+
