@@ -74,3 +74,6 @@ const aaa = new myInformation("Ahmad shafiq", "hafiz shafiq ahmad", "wakeela")
 
 console.log(aaa.tellFtherName());
 
+
+
+console.log("ahmad");
