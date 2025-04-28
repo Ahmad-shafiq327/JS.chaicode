@@ -1,8 +1,12 @@
 body {
     background-color: black;
     color: white;
-    margin-top: 30px;
     text-align: center;
+}
+
+h1 {
+    color: orange;
+    margin-top: 40px;
 }
 
 .container {
@@ -35,27 +39,33 @@ body {
     border: none;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
     font-size: 15vmin;
-    color: red;
+    color: white;
 }
 
-#reset-game {
+#reset-game-btn {
     padding: 8px;
     font-size: 20px;
     background-color: indigo;
     color: white;
     border-radius: 5px;
     border: none;
+    margin-bottom: 50px;
 
 }
 
-#New-game {
+#New-game-btn {
     padding: 8px;
     font-size: 20px;
     background-color: indigo;
     color: white;
     border-radius: 5px;
     border: none;
+    margin-top: 10px;
     
+    
+}
 
 
+.hide {
+    display: none;
 }

@@ -5,7 +5,7 @@
 
 
 
-        // phy aik array declare kia...phr filter method main arow calling function pr reduce method apply kia and new variable main store kia....then print kewaya....yeh hur value ko check kry ga ke 5 sy bari value konsi han...result 5 sy bary number print ho gay...isy kahty han reduce mehtod.....isy hum bht bar use krain gy.
+        // phly aik array declare kia...phr filter method main arow calling function pr reduce method apply kia and new variable main store kia....then print kewaya....yeh hur value ko check kry ga ke 5 sy bari value konsi han...result 5 sy bary number print ho gay...isy kahty han reduce mehtod.....isy hum bht bar use krain gy.
 const myNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 const newNumber = myNumber.filter( (num) => num > 5 )
