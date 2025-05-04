@@ -172,7 +172,6 @@ String.prototype.trueLength = function() {
     console.log(`true length is: ${this.trim().length}`);
     // trim() sy space khtm kr ke str ki length btai.
     
-    
 }
 
 str.trueLength()
@@ -202,6 +201,12 @@ String.prototype.origionalLength = function() {
 
 str2.origionalLength()
 // output 10
+
+
+
+
+
+
 
 
 

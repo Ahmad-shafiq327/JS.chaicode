@@ -478,7 +478,7 @@ else {
 
 
 
-                this is empty array
+                // this is empty array
 let myArray = []
 
 if (myArray.length === 0) {
@@ -496,7 +496,7 @@ else {
 
 
 
-                this is dont empty array...because array main data hai.                
+                // this is dont empty array...because array main data hai.                
 
 let arr = ["ahmad", "fahad", "ubaid"]
 
@@ -566,7 +566,7 @@ else {
 
 
 
---------> Nullish Coalescing Operator (??) null and undefined.
+// --------> Nullish Coalescing Operator (??) null and undefined.
 
 
 let Vallue1 = 5 ?? 10

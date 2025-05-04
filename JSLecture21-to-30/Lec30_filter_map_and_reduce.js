@@ -233,7 +233,7 @@ console.log(mytotal);
 const uuu = [10, 20, 30, 40]
 
 const iii = uuu.reduce(function(acc, curvalue) {
-    console.log(acc, curvalue );
+    console.log(acc, curvalue);
     
     return acc + curvalue
 }, 0)

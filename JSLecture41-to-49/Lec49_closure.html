@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>is lec 49 ke 2 part bnay han...closure ko html wali file main krain gy and lexical scoping ko js wali file main krain gy. </title>
+</head>
+<body style="background-color: black" text="white"  >
+
+    <h1>closure....lexical scoping</h1>
+    
+
+</body>
+
+
+<script> 
+    
+    // hur function ka aik scope hota hai...age scope ke bahir kuch bi declare krty han tw woh axces ni hota.
+    // function init() {
+    //    let name = "Mozilla";
+
+    //    function displayName() {
+    //    console.log(name);
+    //     }
+    //     displayName()
+    //}
+
+    // init() -->
+
+
+    // you know this....scop ke bary main achi trhan....yeh donon functin apas main memory share kr rhy han...functin ke ander function bnaya...phr outer function ko inner function ke nader axcess kia......yeh me kud kah rha ho ke outer function parent hai and inner function child hai......outer function ke ander likha houa me inner function ke ander axcess kr skta hon...q ke yeh apas main memory share kr rhy han. 
+
+
+    // agr me outer function ke ander mazeed 2 function or bna donga tw undonon ka axcess aik dosry ke pas ni hoga...mtlb outer parent hai...ander waly donon child han...mtlb bachy abou sy tw cheez mang skty han....mgr bhai apni cheez kisi ko ni dety.
+
+
+
+    function outer() {
+        let username = "hafiz ahmad"
+        let Name = "ahmad ali"
+
+        function inner() {
+            console.log(username)
+        }
+        inner();
+       
+    }
+
+    outer();
+    
+    // console.log(username)
+    
+
+
+
+
+
+
+
+    function parent() {
+        let fatherName = "shafiq ahmad"
+        let location = "pakistan"
+
+        function child1() {
+            let userone = "fahad shafiq"
+            location = "china"
+
+        }
+
+        function child2() {
+            let usertow = "haseeb shafiq"
+            location = "japan"
+        }
+    }
+
+    parent()
+    child1()
+
+
+
+
+
+
+
+</script>
+</html>
