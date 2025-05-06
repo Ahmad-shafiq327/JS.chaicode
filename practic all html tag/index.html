@@ -3,250 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>practic all html tag</title>
+    <title>Bulb ON OFF</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color: black;" text="white">
+<body>
 
-    <h1>this is all html tag</h1>
-    <hr>
 
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero perferendis quaerat fugiat aspernatur placeat non voluptate distinctio iste quisquam incidunt molestias, quasi minus modi pariatur minima velit obcaecati. Inventore, quos?</p>
-    <hr>
+    <img src="bulbOff.webp" alt="yes" id="img">
 
-    <h1>heading 1</h1>
-    <h2>heading 2</h2>
-    <h3>heading 3</h3>
-    <h4>heading 4</h4>
-    <h5>heading 5</h5>
-    <h6>heading 6</h6>
-    <hr>
+    <br>
+    <button onclick="bulbON()">Bulb ON</button>
+    <button onclick="blulbOFF()">Bulb OFF</button>
 
 
-    <a href="https://google.com" target="_blank">google.com</a>
-    <hr>
-    <a href="https://youtube.com">youtube</a>
-    <hr>
 
-    <img src="IMG_20210914_204431_562.jpg"  height="300px" width="300px" alt="mypic" >
-    <hr>
+    <script>
 
-    <img src="IMG_20220520_220535_105.jpg" height="200px" width="200px" alt="my old pick">
-    <hr>
+        function bulbON() {
+            document.querySelector('img').src="bulbOn.jpeg";
+        }
 
-    <b>this is bold tag......Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit sunt laudantium et eligendi commodi, dolorum dolor culpa tenetur nulla dolores natus sed quasi, officiis nam, inventore velit doloremque eius molestias.</b>
-    <hr>
+        function blulbOFF() {
+            document.querySelector("img").src="bulboff.webp";
+        }
 
-    <i>this is ilatic tag.......Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam debitis nobis harum atque cumque rem rerum in! Illum possimus, eveniet in animi blanditiis odit necessitatibus nesciunt incidunt reiciendis, dicta cupiditate.</i>
-    <hr>
 
-    <u>this is underline tag.......Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore iusto, exercitationem veniam recusandae magni aliquam? Cum veniam repudiandae suscipit cumque placeat id pariatur! Id exercitationem mollitia, similique non corrupti laboriosam.</u>
-    <hr>
 
-    <small>this is small tag.</small>
-    <hr>
 
-    <p>C<sub>6</sub>H<sub>12</sub>O<sub>6</sub></p>
-    <hr>
 
-    <p>A<sup>2</sup> + B<sup>2</sup>+2AB</p>
-    <hr>
+    </script>
 
-    <pre>this 
-        is a pre
-         tag.
-    </pre>
-<hr>
 
-<header>this is header tag for form or table</header>
-
-<main>this is main tag data for form or table</main>
-
-<footer>this is footer for form or table</footer>
-<hr>
-
-<a href="https://google.com" target="_blank"><img src="IMG_20230715_230518_042.jpg" height="50px" width="50px"></a>
-<hr>
-
-
-<div>this is div tag....that mean container</div>
-<hr>
-
-<span>this is span tag</span>
-<hr>
-
-
-<ol>
-    <li>Apple</li>
-    <ul>
-        <li>color: Red</li>
-        <li>season: 12 Month</li>
-        <li>taste: Amazing</li>
-    </ul>
-
-    <li>Manog</li>
-    <ul>
-        <li>color: Yellow</li>
-        <li>Season: Summer</li>
-        <li>taste: wonderfull</li>
-    </ul>
-
-    <li>Banana</li>
-    <ul>
-        <li>color: Yellow</li>
-        <li>season 6 Month</li>
-        <li>favorite: for all</li>
-    </ul>
-
-</ol>
-
-<hr>
-
-
-    <table>
-
-        <tr>
-            <th>Name</th>
-            <th>subject</th>
-            <th>Roll No.</th>
-        </tr>
-
-        <td>Ahmad shafqi</td>
-        <td>computer</td>
-        <td>4255</td>
-
-    </table>
-<hr>
-
-<input type="text" placeholder="Enter Name...">
-<hr>
-
-
-<input type="password">
-<hr>
-
-
-<input type="radio" value="11" name="radio" id="11">classXI
-
-<input type="radio" value="12" name="radio" id="12">classXII
-
-<hr>
-
-
-
-<label for="checkbox">
-    <input type="checkbox">chemistry
-</label>
-
-<label for="checkbox">
-    <input type="checkbox">phtysics
-</label>
-
-<label for="checkobox">
-    <input type="checkbox">computer
-</label>
-<hr>
-
-
-
-
-<select>
-    <option>pakistan</option>
-    <option>india</option>
-    <option>japan</option>
-    <option>china</option>
-    <option>germany</option>
-</select>
-
-<hr>
-
-
-<video width="300px" height="300px" autoplay src="VID-20240906-WA0012.mp4" ></video> 
-
-
-<hr>
-
-
-
-<input type="radio" id="red" name="color" value="red">select your favorite color
-
-<input type="radio" id="blue" name="color" value="blue">chose other color
-
-<hr>
-
-
-<audio src="Recording.m3">this is audio tag</audio>
-<hr>
-
-<label for="username">Enter your Name</label>
-<input type="text" id="username" placeholder="Enter your Name">
-<hr>
-
-<label for="password">Enter your Password</label>
-<input type="password" placeholder="Enter your password">
-<hr>
-
-<label for="number">Enter Mobile Number</label>
-<input type="tel" id="call" placeholder="Enter 12 digits" >
-<hr>
-
-<label for="file">Select file</label>
-<input type="file">
-<hr>
-
-
-<label for="email"></label>
-<input type="email">
-<hr>
-
-
-<label for="range"></label>
-<input type="range" aria-valuemin="9" aria-valuemax="20">
-<hr>
-
-<label for="color">chose color:</label>
-<input type="color">
-<hr>
-
-
-<label for="month">Select Month</label>
-<input type="month">
-<hr>
-
-
-
-<label for="date">Select Date
-    <input type="date">
-</label>
-<hr>
-
-
-
-<label for="email">Enter your email
-    <input type="email" id="mail" name="email" placeholder="Email">
-</label>
-<hr>
-
-
-
-<label for="week">Chose week
-    <input type="week">
-</label>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 
 
 </body>
