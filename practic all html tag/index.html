@@ -10,31 +10,29 @@
 
 
     <img src="bulbOff.webp" alt="yes" id="img">
-
     <br>
-    <button onclick="bulbON()">Bulb ON</button>
-    <button onclick="blulbOFF()">Bulb OFF</button>
+
+    <button id="btn1" onclick="bulbON()">Bulb ON</button>
+    <button id="btn2" onclick="bulbOFF()">Bulb OFF</button>
 
 
 
     <script>
 
+
         function bulbON() {
-            document.querySelector('img').src="bulbOn.jpeg";
+            document.getElementById('img').src="bulbOn.jpeg";
         }
 
-        function blulbOFF() {
-            document.querySelector("img").src="bulboff.webp";
+        function bulbOFF() {
+            document.getElementById('img').src="bulbOff.webp";
         }
-
-
-
 
 
     </script>
 
-
-
-
 </body>
 </html>
+
+
+
