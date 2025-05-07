@@ -1,5 +1,5 @@
 function hywlipic() {
-    document.getElementById('hyimage').src="unglipic3.jpg";
+    document.getElementById('hyimage').src="unglipic3.webp";
     document.getElementById('hyimage').style.width="300px";
     
 }
