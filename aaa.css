@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+}
+
+
+#container {
+    height: 100px;
+    width: 200px;
+    background-color: peru;
+    border-radius: 10px;
+
+}
+
+
+#btnstop {
+    font-weight: bold;
+    padding: 12px;
+    font-size: 15px;
+    background-color: red;
+    border-radius: 6px;
+    color: white;
+}
+
+
+#btnstart {
+    font-weight: bold;
+    padding: 12px;
+    font-size: 15px;
+    background-color: green;
+    border-radius: 6px;
+    color: white;
+}
+
+
+#btnreset {
+    font-weight: bold;
+    padding: 12px;
+    font-size: 15px;
+    background-color: blue;
+    border-radius: 6px;
+    color: white;
+
+}
+
+

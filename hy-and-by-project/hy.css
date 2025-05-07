@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+#hyimage {
+    height: 200px;
+    border-radius: 5px;
+    
+}
+
+#hyclick {
+    margin-top: 20px;
+    background-color: green;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+
+#unglipic {
+    margin-top: 20px;
+    background-color: thistle;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+
+
+}
