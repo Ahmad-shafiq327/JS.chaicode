@@ -29,3 +29,5 @@ function creatUser(username, email, password) {
 
 const secUser = new creatUser("ahmad", "ahmad@gmail.com", "4255")
 console.log(secUser);
+
+
