@@ -1,19 +1,28 @@
-let btn1 = document.getElementById('btnstop')
-let btn2 = document.getElementById('btnstart')
-let btn3 = document.getElementById('btnreset')
-
-let tainer = document.getElementById('container')
-let boddy = document.querySelector('body')
+let intervalId = null
 
 
+function displayTime() {
+    let time = new Date()
+    let timeNow = time.toLocaleTimeString()
+    document.getElementById('time').textContent = timeNow
 
+}
 
-setInterval(() => {
-    let date = new Date()
+function startclock() {
+    displayTime()
+    intervalId = setInterval(displayTime,1000)
+}
 
-    btn2.addEventListener('click', function() {
-        tainer.innerHTML = date.toLocaleTimeString()
-    })
-},1000)
+function stopclock() {
+    clearInterval(intervalId)
+    intervalId = null
+
+}
+
+function resetclock() {
+    stopclock()
+    document.getElementById('time').textContent = "00: 00: 00"
+}
+
 
 
