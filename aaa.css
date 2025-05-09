@@ -38,3 +38,9 @@ body {
     margin: 8px;
 
 }
+
+
+#heading {
+    text-align: center;
+    color: orange;
+}
