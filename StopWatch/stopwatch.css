@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+
+h1 {
+    color: orange;
+    font-weight: bold;
+    font-size: 44px;
+}
+
+
+#timerDisplay {
+
+    font-size: 40px;
+
+
+}
+
+#startbtn{
+    background-color: green;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 6px;
+    margin: 5px;
+
+}
+
+#stopbtn {
+    background-color: red;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 6px;
+    margin: 5px;
+    
+}
+
+
+#resetbtn{
+    background-color: blue;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 6px;
+    margin: 5px;
+
+
+}
