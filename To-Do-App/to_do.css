@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    color: white;
+    margin-top: 10%;
+    /* margin-left: 30%; */
+}
+
+.container {
+    height: 350px;
+    width: 650px;
+    background-color: #d3b17f;
+    border-radius: 10px;
+    /* text-align: center; */
+}
+
+
+#inp {
+    height: 25px;
+    border-color: rgba(10, 7, 168, 0.938);
+    outline: none;
+
+}
+
+
+#btn1 {
+    background-color: rgba(94, 48, 3, 0.952);
+    height: 30px;
+    font-weight: bold;
+    width: 45px;
+    border-radius: 3px;
+    color: white;
+
+}
+
+
+
+
+
+.text ul {
+    position: relative;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+
+
