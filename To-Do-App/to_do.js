@@ -1,30 +1,41 @@
 let inputs = document.getElementById('inp')
+let orderList = document.getElementById('olist')
 
-let text = document.querySelector('.text')
 
 function add() {
+
+    // check condition
     if(inputs.value === "") {
         alert("please Enter task")
     }
-    else{
-        let ul = document.createElement('ul')
-        ul.innerHTML = inputs.value
-        text.appendChild(ul)
+
+    else {
+        
+        let creatList = document.createElement('li')
+        creatList.innerText = inputs.value
+        orderList.appendChild(creatList)
         inputs.value = ""
-
-        let dltBtn = document.createElement('button')
-        dltBtn.innerText = "delete"
-        ul.appendChild(dltBtn)
-
-        dltBtn.onclick() = function() {
-            ul.remove()
-           
-        }
+        creatList.style.color = "white"
+        creatList.style.fontSize = "22px"
+        creatList.style.backgroundColor = "blue"
 
 
+        let creatBtn = document.createElement('button')
+        creatBtn.innerText = "Delete"
+        orderList.append(creatBtn)
+        creatBtn.style.color = "white"
+        creatBtn.style.backgroundColor = "blue"
+        creatBtn.style.fontSize = "15px"
+
+        creatBtn.addEventListener('click', () => {
+            orderList.removeChild(creatList)
+            orderList.removeChild(creatBtn)
+        })
+
+    
     }
 
-
+   
 }
 
 
@@ -32,18 +43,4 @@ function add() {
 
 
 
-
-
-// else {
-//     let newEle = document.createElement('ul')
-//     newEle.innerHTML = `${inputs.value} <button id"dltBtn"> Delete`
-//     text.appendChild(newEle)
-//     inputs.value = ""
-// }
-
-
-
-
-
-
-
+// then creatlist...phr us list ke text ko wohi value di jo inputs main likhi jay gi...phr usi list ko order list ke ander dal kr display kerwaya...phr aik task likhny ke bad inputs khali ho jay....phr delete ke name sy aik button creat kia...phr us button ko orderlist ke ander display kerwaya....phr button click krny pr orderlist ko remove kia....and sath hi button ko bi remove kerwaya........and is main styling bi ki.
