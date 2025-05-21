@@ -10,7 +10,7 @@ function add() {
     }
 
     else {
-        
+
         let creatList = document.createElement('li')
         creatList.innerText = inputs.value
         orderList.appendChild(creatList)
@@ -18,6 +18,11 @@ function add() {
         creatList.style.color = "white"
         creatList.style.fontSize = "22px"
         creatList.style.backgroundColor = "blue"
+        creatList.style.padding = "3px"
+        
+
+
+
 
 
         let creatBtn = document.createElement('button')
@@ -27,9 +32,12 @@ function add() {
         creatBtn.style.backgroundColor = "blue"
         creatBtn.style.fontSize = "15px"
 
+
+
         creatBtn.addEventListener('click', () => {
             orderList.removeChild(creatList)
             orderList.removeChild(creatBtn)
+
         })
 
     
