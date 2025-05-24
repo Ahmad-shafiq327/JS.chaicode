@@ -15,22 +15,29 @@ body {
 
 
 #inp {
-    height: 25px;
-    width: 200px;
+    height: 35px;
+    width: 400px;
     border-color: rgba(10, 7, 168, 0.938);
-    outline: none;
+    border-radius: 5px;
 
 }
 
 
 #btn1 {
     background-color: rgba(94, 48, 3, 0.952);
-    height: 30px;
+    height: 38px;
     font-weight: bold;
-    width: 45px;
+    width: 55px;
     border-radius: 3px;
     color: white;
+    font-size: 20px;
 
+}
+
+
+
+li {
+    margin-right: 84%;
 }
 
 

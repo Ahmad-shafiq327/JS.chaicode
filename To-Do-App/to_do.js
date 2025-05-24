@@ -1,49 +1,63 @@
 let inputs = document.getElementById('inp')
-let orderList = document.getElementById('olist')
+let orderlist = document.getElementById('olist')
+
 
 
 function add() {
-
-    // check condition
     if(inputs.value === "") {
         alert("please Enter task")
     }
 
-    else {
-
-        let creatList = document.createElement('li')
-        creatList.innerText = inputs.value
-        orderList.appendChild(creatList)
+    else{
+        
+        let list = document.createElement('li')
+        list.innerText = inputs.value
+        orderlist.appendChild(list)
+        orderlist.style.fontSize = "25px"
+        // orderlist.style.backgroundColor = "green"
         inputs.value = ""
-        creatList.style.color = "white"
-        creatList.style.fontSize = "22px"
-        creatList.style.backgroundColor = "blue"
-        creatList.style.padding = "3px"
+        creatbtn()
+     
+
+        function creatbtn() {
+            let dltBtn = document.createElement('button')
+            dltBtn.innerText = "Delete"
+            orderlist.appendChild(dltBtn)
+            dltBtn.style.backgroundColor = "red"
+            dltBtn.style.fontSize = "15px"
+            dltBtn.style.fontWeight = "bold"
+            dltBtn.style.cursor = "pointer"
+
+            dltBtn.addEventListener('click', () => {
+                list.remove()
+                dltBtn.remove()
+            })
+
+
+
+        }
+
+
+
         
 
 
 
 
 
-        let creatBtn = document.createElement('button')
-        creatBtn.innerText = "Delete"
-        orderList.append(creatBtn)
-        creatBtn.style.color = "white"
-        creatBtn.style.backgroundColor = "blue"
-        creatBtn.style.fontSize = "15px"
+
+
+      
 
 
 
-        creatBtn.addEventListener('click', () => {
-            orderList.removeChild(creatList)
-            orderList.removeChild(creatBtn)
 
-        })
 
-    
     }
 
-   
+
+
+
 }
 
 
