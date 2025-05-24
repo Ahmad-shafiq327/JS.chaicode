@@ -9,16 +9,17 @@ function add() {
     }
 
     else{
-        
+        // i itself creat
         let list = document.createElement('li')
         list.innerText = inputs.value
         orderlist.appendChild(list)
         orderlist.style.fontSize = "25px"
-        // orderlist.style.backgroundColor = "green"
+        orderlist.style.backgroundColor = "green"
         inputs.value = ""
         creatbtn()
+        
      
-
+        // creat function name of creatbtn...function call upper
         function creatbtn() {
             let dltBtn = document.createElement('button')
             dltBtn.innerText = "Delete"
