@@ -42,7 +42,7 @@ h1 {
     color: white;
 }
 
-#reset-game-btn {
+#reset_game {
     padding: 8px;
     font-size: 20px;
     background-color: indigo;
@@ -53,7 +53,7 @@ h1 {
 
 }
 
-#New-game-btn {
+#new_game {
     padding: 8px;
     font-size: 20px;
     background-color: indigo;

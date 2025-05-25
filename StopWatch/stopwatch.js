@@ -61,22 +61,5 @@ function reset() {
 
 
 
-// function getotp(Number) {
-//     let otp = ""
-//     for(let i = 0; i < Number; i++) {
-//         otp += Math.floor(Math.random() * 10)
-//     }
-//     return otp
-// }
-
-// let checkopt = getotp(6)
-// console.log(checkopt);
-
-
-
-
-
-
-
 
 
