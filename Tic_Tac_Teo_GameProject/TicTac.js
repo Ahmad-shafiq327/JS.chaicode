@@ -6,7 +6,7 @@ let resetgamebtn = document.getElementById('reset_game')
 let bodyy = document.querySelector('body')
 
 
-let turn0 = true
+let turnO = true
 let count = 0
 
 
@@ -24,13 +24,13 @@ const WinnPatterns = [
 
 boxes.forEach((box) => {
   box.addEventListener('click', () => {
-    if(turn0 === true) {
+    if(turnO === true) {
       box.innerHTML = "O"
-      turn0 = false
+      turnO = false
     }
     else {
       box.innerHTML = "X"
-      turn0 = true
+      turnO = true
     }
     box.disabled = true
     count++
@@ -50,7 +50,7 @@ boxes.forEach((box) => {
 
 const gameDraw = () => {
 
-  msgPara.innerText = "game was a draw"
+  msgPara.innerText = "Game was  draw"
   msgContianer.classList.remove('hide')
   disableBoxes()
 
@@ -92,7 +92,7 @@ const checkWinner = () => {
     let pos3Value = boxes[pattern[2]].innerText
 
 
-    if(pos1Value != "" && pos2Value != "" && pos3Value != "") {
+    if(pos1Value != "" && pos2Value != "" && pos3Value != "")  {
       if(pos1Value === pos2Value && pos2Value === pos3Value) {
         showWinner(pos3Value)
         return true
@@ -110,3 +110,4 @@ NewGameBtn.addEventListener('click', function() {
 resetgamebtn.addEventListener('click', function() {
   enableBoxes()
 })
+
