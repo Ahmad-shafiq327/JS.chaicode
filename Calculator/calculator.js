@@ -3,25 +3,24 @@ let display = document.getElementById('display')
 
 function appendToDisplay(value) {
     display.value = display.value + value
-
 }
 
-
-function clearDisplay() {
+function cleardisplay() {
     display.value = ""
 }
 
 
-function deledigit() {
+function DeleteDigit() {
     display.value = display.value.slice(0, -1)
 }
 
 
-function calculateResult() {
+function CalculateResult() {
     try {
         display.value = eval(display.value)
     }
     catch(error) {
-        display.value = "error"
+        display.value = "Error"
     }
 }
+

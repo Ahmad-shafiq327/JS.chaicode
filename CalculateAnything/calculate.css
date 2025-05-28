@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+#display {
+    height: 40px;
+    width: 400px;
+    font-size: 30px;
+    border-color: blue;
+    border-radius: 6px;
+    border-radius: 2px solid;
+
+}
+
+#green {
+    background-color: rgb(72, 238, 72);
+    font-size: 22px;
+    border-radius: 8px;
+    margin: 10px;
+    margin-top: 30px;
+
+}
+
+
+#red {
+    background-color: rgb(253, 49, 49);
+    font-size: 22px;
+    border-radius: 8px;
+    margin: 10px;
+    margin-top: 30px;
+}
+
+
+
+
+
+.conatiner {
+    text-align: center;
+    margin-top: 10%;
+
+}
