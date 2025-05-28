@@ -13,7 +13,7 @@ h1 {
 .claculator {
     border: 2px solid red;
     height: 410px;
-    width: 280px;
+    width: 320px;
     border-radius: 8px;
 
 }
@@ -22,7 +22,7 @@ h1 {
 
 #display {
     height: 40px;
-    width: 270px;
+    width: 310px;
     outline: none;
     border-color: blue;
     border-radius: 7px;
@@ -47,10 +47,23 @@ button {
 
 .buttons {
     display: grid;
-    grid-template-columns: repeat(4, 60px);
+    grid-template-columns: repeat(4, 70px);
     gap: 10px;
     margin: 4px;
 }
 button:hover {
     background-color: #1e1e1e;
+}
+
+
+#cl {
+    background-color: red;
+}
+
+#del {
+    background-color: blue;
+}
+
+#equal {
+    background-color: green;
 }
