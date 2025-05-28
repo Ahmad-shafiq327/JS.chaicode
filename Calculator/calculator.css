@@ -5,14 +5,17 @@ body {
 
 h1 {
     color: orange;
+    text-align: center;
+
 }
 
 
 .claculator {
     border: 2px solid red;
-    height: 390px;
+    height: 410px;
     width: 280px;
     border-radius: 8px;
+
 }
 
 
@@ -24,6 +27,7 @@ h1 {
     border-color: blue;
     border-radius: 7px;
     font-size: 30px;
+    background-color: #ebdcdcf3;
 
 }
 
@@ -36,6 +40,8 @@ button {
     font-weight: bold;
     padding: 10px;
     border-radius: 10px;
+    text-align: center;
+    margin-top: 5px;
 
 }
 
