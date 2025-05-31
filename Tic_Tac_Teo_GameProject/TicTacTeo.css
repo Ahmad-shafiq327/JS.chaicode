@@ -34,7 +34,7 @@ h1 {
 .box {
     height: 18vmin;
     width: 18vmin;
-    background-color: olive;
+    background-color: #1e1e;
     border-radius: 6px;
     border: none;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
