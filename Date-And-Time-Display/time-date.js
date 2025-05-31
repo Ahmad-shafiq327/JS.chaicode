@@ -8,3 +8,5 @@ setInterval(() => {
     contner.innerHTML = date.toLocaleString()
 
 }, 1000)
+
+

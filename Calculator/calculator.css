@@ -11,7 +11,8 @@ h1 {
 
 
 .claculator {
-    border: 2px solid red;
+    border: 2px solid white;
+    background: linear-gradient(45deg, red, blue);
     height: 410px;
     width: 320px;
     border-radius: 8px;
@@ -26,7 +27,7 @@ h1 {
     outline: none;
     border-color: blue;
     border-radius: 7px;
-    font-size: 30px;
+    font-size: 40px;
     background-color: #ebdcdcf3;
     margin-top: 1px;
 

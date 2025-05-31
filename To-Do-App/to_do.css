@@ -2,7 +2,7 @@ body {
     background-color: black;
     color: white;
     margin-top: 10%;
-    margin-left: 30%;
+    /* margin-left: 30%; */
 }
 
 .container {
@@ -19,6 +19,7 @@ body {
     width: 400px;
     border-color: rgba(10, 7, 168, 0.938);
     border-radius: 5px;
+    font-size: 40px;
 
 }
 

@@ -10,7 +10,8 @@ function appendToDisplay(value) {
 // apply eval method & need last five digits after ishariya.
 function CalculateResult() {
     try { // calculate DMAS and everything
-        display.value = eval(display.value).toFixed(5)
+        display.value = eval(display.value).toFixed(2)
+
 
     } // error catch from buttons & display in inputs.
     catch(error) {
@@ -18,7 +19,7 @@ function CalculateResult() {
     }
 }
 
-// Empty inputs...at click C
+// Empty inputs...at click A/C
 function cleardisplay() {
     display.value = ""
 }
