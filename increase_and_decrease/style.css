@@ -1,0 +1,127 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+p {
+    font-size: 40px;
+    margin: 10px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    
+}
+
+
+
+#plus {
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+
+#minus {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 5px;
+    margin-left: 10px;
+
+}
+
+
+#reset {
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 5px;
+    margin-left: 10px;
+
+    
+}
+
+
+
+
+#container {
+    background-color: pink;
+    height: 50px;
+    width: 200px;
+    border-radius: 6px;
+    margin-left: 10%;
+    margin-top: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#plus2 {
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 5px;
+    margin-left: 10px;
+
+}
+
+
+
+
+#stop {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+
+
+#reset2 {
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+
+
+
+#para2 {
+    font-size: 40px;
+    margin: 10px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin-top: 50px;
+    background-color: pink;
+    height: 50px;
+    width: 200px;
+    border-radius: 8px;
+    margin-left: 10%;
+}

@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    color: orange;
+}
+
+
+#box {
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    border-radius: 10px;
+
+}
+
+
+button {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 10px;
+    margin-left: 60px;
+}
