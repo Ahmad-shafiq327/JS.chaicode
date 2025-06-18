@@ -22,8 +22,10 @@
     display: none;
   }
   img.active {
-    display: block;
+    display: block; /* mtlb display dekhao*/
   }
+
+
   .btns {
     position: absolute;
     top: 50%;
