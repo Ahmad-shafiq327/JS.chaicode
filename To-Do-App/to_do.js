@@ -37,25 +37,10 @@ function add() {
 
 
         }
-
-
-
-        
-
-
-
-
-
-
-
-      
-
-
-
+    
 
 
     }
-
 
 
 
@@ -67,3 +52,12 @@ function add() {
 
 
 // then creatlist...phr us list ke text ko wohi value di jo inputs main likhi jay gi...phr usi list ko order list ke ander dal kr display kerwaya...phr aik task likhny ke bad inputs khali ho jay....phr delete ke name sy aik button creat kia...phr us button ko orderlist ke ander display kerwaya....phr button click krny pr orderlist ko remove kia....and sath hi button ko bi remove kerwaya........and is main styling bi ki.
+
+
+
+
+
+
+
+
+
