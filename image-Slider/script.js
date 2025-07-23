@@ -6,9 +6,7 @@ let current = 0;
 
 function showImage(index) {
   images.forEach((img, i) => {
-    console.log("Current: " + index)
-    console.log("Image Index: " + i)
-    console.log(img)
+
     img.classList.remove("active");
 
     if (i === index) {
