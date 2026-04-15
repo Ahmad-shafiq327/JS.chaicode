@@ -366,3 +366,116 @@ console.log(mid);
 
 
 
+
+
+
+
+
+
+function getrandomColor() {
+    const haxvalue = "0123456789ABCDEF";
+    let color = '#';
+    for(let i = 0; i < 6; i++) {
+        color += haxvalue[Math.floor(Math.random() * 16)]
+    }
+    return color
+}
+
+console.log(getrandomColor());
+
+
+
+
+
+
+
+
+
+function getOTP() {
+    let store = ""
+    for(let i = 0; i < 6; i++) {
+        store += Math.floor(Math.random() * 10)
+    }
+    return store
+}
+
+console.log(getOTP());
+
+
+function colorGenerate() {
+    let HaxValue = "0123456789ABCDEF"
+    let color = "#"
+
+    for(let i = 0; i < 6; i++) {
+        color += HaxValue[Math.floor(Math.random() * 16)]
+    }
+    return color
+}
+
+console.log(colorGenerate())
+
+
+
+
+
+
+
+
+
+function GETOPT() {
+    let OTP = ""
+    for(let i = 0; i <= 5; i++) {
+        OTP += Math.floor(Math.random() * 10)
+    }
+    return OTP
+}
+
+console.log(GETOPT());
+
+
+
+
+
+
+
+
+
+
+function colorchanger() {
+    let colorvalue = "0123456789ABCDEF"
+    let value = "#"
+
+    for(let i = 1; i <=5; i++) {
+        value += colorvalue[(Math.floor(Math.random() * 16))]
+    }
+    return value
+}
+
+console.log(colorchanger());
+
+
+
+
+
+function myotp() {
+    let otp = ''
+    for(let i = 1; i <= 5; i++) {
+        otp += Math.floor(Math.random() * 10)
+
+    }
+    return otp
+}
+
+console.log(myotp(6));
+
+
+
+
+if(navigator.onLine) {
+    console.log("interne connected");
+    
+}
+else {
+    console.log("inernet not connected");
+    
+}
