@@ -62,7 +62,7 @@ console.log(even);
 
 
 
-// sirf us user ka data dega jo user active hoga.
+// sirf us user ka data dega jo user active hoga....yad rahy ke callback function ke ander as a parameter kuch bi likh skty han....zarori nahi ke jo variable array sy declare kia ho wohi do.
 const user = [
     {name: "ahmad", active: true},
     {name: "haseeb", active: true},
@@ -119,7 +119,7 @@ console.log(Result);
 
 
 
-// sirf mouse and keyboard ki detail retun kry ga Q ke 2000 ke equal and choti value in donon ki han.
+// sirf mouse and keyboard ki detail retun kry ga Q ke 2000 ke equal and choti value in donon ki han...yad rahy ke filter(products) callback function ke ander as a parameter kuch bi likh skty han......me ne products likha hai....iski jagah kuch bi likh skty han....a bi b bi c bi arr bi p bi kuch bi likh skty han.
 const products = [
     {name: "mouse", price: 500},
     {name: "Keyboard", price: 2000},
@@ -139,11 +139,11 @@ console.log(CheapProducts);
 
 
 
-// result bnana mango and orange...Q ke in main an ata hai.
+// result bnana mango and orange...Q ke in main an ata hai..
 const fruites = ["Apple", "bnana", "mango", "orange"]
 
-const resultFruites = fruites.filter((fruites) => {
-    return fruites.includes('an')
+const resultFruites = fruites.filter((check) => {
+    return check.includes('an')
 })
 
 console.log(resultFruites);
