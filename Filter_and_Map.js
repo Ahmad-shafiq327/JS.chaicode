@@ -147,3 +147,79 @@ const resultFruites = fruites.filter((check) => {
 })
 
 console.log(resultFruites);
+
+
+
+
+
+
+
+
+
+
+// ab hum map use krain gy....mostly map filter ke sath hi use hota hai...mostly map array amd array main object main use hota hai.
+
+// phly 1 array declare kia...array pr filter lgaya ke mujhy woh number do jis ka hum 2 sy modolus lain or woh zero ke equal ay..jaisa ke 2 ka % zero hota hai...phr jo answer aya us pr map lga kr usy 2 sy multiply kr dia.
+const Mapp = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+const mapping = Mapp.filter(num => num % 2 === 0).map(num => num * 2) // yeh line hardcode hai.
+console.log(mapping); // [4,8,12,16]
+
+
+
+
+
+
+
+
+// push on mind...before array declare...then apply filter method...after result apply map method.
+const capital = [10, 20, 30, 40, 50]
+const Rslt = capital
+.filter(a => a > 30) // 
+.map(a => a * 2)
+console.log(Rslt) // [80, 100]
+
+
+
+
+
+
+
+
+
+
+
+// push on mind...phlt 1 array mian object declare kia...us pr filter method ke madad sy 24 sy bari age walon ka data lia...phr map lga kr unka name axcess kia.
+const User = [
+    {name: 'Ahmad', age: '22'},
+    {name: 'ali', age: '24'},
+    {name: 'haseeb', age: '28'},
+    {name: 'fahad', age: '32'},
+    {name: 'Nouman', age: '35'},
+
+]
+// hardCode use
+const CheckAge = User.filter(adult => adult.age > 24).map(adult => adult.name)
+console.log(CheckAge);
+
+
+
+
+
+
+
+// push on mind...phly 1 array mein object declare kia....phr fitler lga kr check kia kon kon false hai...phr jo jawab aya us pr map lga kr uski id ko axcess kia.
+const objct = [
+    {name: 'Ahmad', id: 1, isActie: true},
+    {name: 'Haseeb', id: 2, isActie: true},
+    {name: 'Ubaid', id: 3, isActie: false},
+    {name: 'Nouman', id: 4, isActie: false},
+    {name: 'fahad', id: 5, isActie: false},
+]
+
+const CheckTrue = objct.filter(arr => arr.isActie === false).map(arr => arr.id)
+console.log(CheckTrue);
+// ['haseeb', 'fahad', 'nouman']
+// [3, 4, 5]
+
+
+
