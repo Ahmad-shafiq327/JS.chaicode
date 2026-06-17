@@ -13,7 +13,7 @@ const result = num.reduce((accumulator, currentValue) => {
     return accumulator + currentValue
 }, 10)
 
-console.log(result);
+console.log(result); [25]
 
 
 
@@ -24,7 +24,27 @@ const acha = nmber.reduce((acc, curr) => {
     return acc + curr
 }, 2)
 
-console.log(acha);
+console.log(acha); [22]
 
 
 
+
+// iska anwer zero ay ga q ke acc zero hai...0 ko curr sy multiply krny sy anser 0 ata jay ga.
+const Num = [2, 4, 6, 8]
+const check = Num.reduce((acc, curr) => {
+    return acc * curr
+}, 0) 
+console.log(check); [0]
+
+
+
+
+
+
+// phly acc 2 hai and curr 1 hai...... acc * curr...2 ko multiply kia curr sy mtlb 2 * 1 = 2    ab acc ki value 2 ho gyi and curr ki value 3...... acc * curr   2 * 3 = 6    ab acc ki value 6 ho gyi and curr ki vlaue 5    acc * curr 6 * 5 = 30..... yeh process isi trhan chalta rahy ga.
+const aaa = [1, 3, 5, 7]
+const bbb = aaa.reduce((acc, curr) => {
+    return acc * curr
+}, 2)
+
+console.log(bbb);
