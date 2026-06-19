@@ -48,3 +48,16 @@ const bbb = aaa.reduce((acc, curr) => {
 }, 2)
 
 console.log(bbb);
+
+
+
+
+
+
+// reduce method ne pury array ko aik single value main convert kr dia...hum call back function ke ander accumulator and currentValue ki jagah kuch bi likh skty han....accumulator woh value hoti hai jo hum dependency main put krty hain. 
+const acc = [1, 2, 3, 4, 5]
+const Check = acc.reduce((bb, cc) => {
+    return bb + cc
+}, )
+
+console.log(Check); // [15]
