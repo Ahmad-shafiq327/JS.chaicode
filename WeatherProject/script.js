@@ -25,6 +25,5 @@ btn.addEventListener("click", async () => {
     cityTem.innerText = result.current.temp_c
     
     
-    
 })
 
